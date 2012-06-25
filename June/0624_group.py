@@ -12,7 +12,7 @@ def random_group(input_list, groupNum=2, seed=5):
 
 	length = len(input_list) 
 
-	#define out_list structure
+	#init out_list structure
 	out_list = []
 	for i in range(groupNum):
 		out_list.append([])
