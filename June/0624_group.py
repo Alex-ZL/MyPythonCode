@@ -1,8 +1,8 @@
 #/usr/bin/python
 ## A function to group list
 
-allNames=["Alex","Ada","Amy","Debbie","Kobe","Hejus","Jack","Grant",
-		"Mike","Evan","Stone","Ben","Johnson","Selena","Lake","Michael"
+allNames=["Alex","Michael","Grant","Lake","Johnson","Jack","Selena","Evan",
+		"Ada","Hejus","Kobe","Mike","Ben","Stone","Debbie","Amy"
 		]
 
 def random_group(input_list, groupNum=2, seed=5):
@@ -32,5 +32,5 @@ def random_group(input_list, groupNum=2, seed=5):
 
 
 if __name__ == '__main__':
-	print random_group(allNames,6)
+	print random_group(allNames,6,5)
 
