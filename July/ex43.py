@@ -85,6 +85,7 @@ class Game(object):
 
 		while guess != code and guesses < 10:
 			print "BZZZZEDDD!"
+			print "guesses",guesses
 			guesses += 1
 			guess = raw_input("[keypad]> ")
 

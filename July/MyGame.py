@@ -4,13 +4,50 @@ from random import randint
 import sys
 
 class game(object):
+
 	def __init__(self):
+		initRole()
+		valley(role)
+		jungle(role)
+		castle(role)
+
+
+	def initRole(self):
+		"""create a role with properties including career, weapon"""
+		print "Welcome the world of sword and magic!"
+		print "As a chosen one, you have to begin your advanture now"
+		print "Willing or not, you must do something, so......"
+		print "\n"
+		print "MAKE YOUR CHOICE!!!!!!"
+		print "First, you will have a test to decide your career."
+		marks = 0
+		#try:
+		marks += int(raw_input("Which way would you prefer in a fight? 1: melee combat. 2:hit and run. 1 or 2?")
+
+		#except ValueError: 
+		#	print "error input, please enter number!"
+		#	initRole()
+
+	def valley(self, role):
 		pass
 
-	def weapon(self, role):
-		"""choose right weapon for the role according to his property"""
+	def jungle(self, role):
 		pass
-	pass
+
+	def castle(self, role):
+		pass
+
+	def death(self):
+		quips = [
+			"Now or never, sorry you failed!",
+			"It's not always the hero win the game",
+			"Do you really try your best?",
+			"Whatever, try again, you may win next time."
+		]
+		print quips[randint(0, len(quips)-1)]
+		exit(1)
+	
+
 
 class role(object):
 	"""basic role with properties and actions"""
@@ -32,10 +69,20 @@ class role(object):
 		else:
 			self.hp = 90
 	
+
 	def attack(self):
-		if 
+		"""attack method return damage value depending on career"""
 
-	pass
+		if self.career = "Warrior":
+			damage = 1.5*self.strength + 1*self.agility + 0.5*self.willpower + randint(0, self.luck)
+		elif self.career = "Archer":
+			damage = 1.2*self.strength + 1.4*self.agility + 0.4*self.willpower + randint(0, self.luck)
+		else:
+			damage = 0.4*self.strength + 0.9*self.agility + 1.7*self.willpower + randint(0, self.luck)
 
-class monster(object):
-	pass
+		if randint(0, self.agility) == 0:
+			damage = 0
+		return damage
+
+
+MyGame = game()
