@@ -19,26 +19,39 @@ class game(object):
 		print "First, you will have a test to decide your career."
 		marks = 0
 		try:
-			marks += int(raw_input("Which way would you prefer in a fight? 1: melee combat. 2:hit and run. 1 or 2?"))
+			marks += int(raw_input("Which way would you prefer in a fight? \n 1: melee combat. 2:hit and run. 1 or 2?"))
 		except ValueError: 
 			print "error input, please enter number!"
-			__init__()
+		properties = {"strength":10,
+					  "agility":10,
+					  "willpower":10,
+					  "career":"Warrior",
+					  "weapon":"sword",
+					  }
+		self.myrole = role(properties)
 		print "Now you are a warrior!"
 
 	def play(self):
-		print "play"
-		return 'valley'
+		next_mission_name = 'valley'
+		while 1:
+			print "\n*********************"
+			mission = getattr(self,next_mission_name)
+			next_mission_name = mission(self.myrole)
 
 	def valley(self, role):
 		print "Here is valley, a gaint's manor"
+		print role.attack()
+		return 'jungle'
 
 	def jungle(self, role):
-		pass
+		print "In the dark jungle, there lives a evil wizard"
+		return 'castle'
 
 	def castle(self, role):
-		pass
+		print "Lo and behold, you get to the dragon's castle"
+		return 'death'
 
-	def death(self):
+	def death(self, role):
 		quips = [
 			"Now or never, sorry you failed!",
 			"It's not always the hero win the game",
@@ -46,6 +59,7 @@ class game(object):
 			"Whatever, try again, you may win next time."
 		]
 		print quips[randint(0, len(quips)-1)]
+		print "You could be a great " + role.career
 		exit(1)
 	
 
