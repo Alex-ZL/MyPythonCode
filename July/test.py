@@ -10,10 +10,10 @@ class wired_return(object):
 
 	def fun1(self):
 		print "Here is fun1"
-		return 'fun2'
+		return 'fun'
 
 	def fun2(self):
-		print "Fun2"
+		print "Fun"
 
-a_fun = wired_return('fun1')
-print a_fun.fun1()
+a_fun = wired_return('what do you want?')
+a_fun.fun1()
