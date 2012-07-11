@@ -13,6 +13,7 @@ class game(object):
 		print "\n"
 		print "MAKE YOUR CHOICE!!!!!!"
 		print "First, you will have a test to decide your career."
+		raw_input("Let's begin the test!")
 		properties = {"strength":10,
 					  "agility":10,
 					  "willpower":10,
@@ -54,7 +55,7 @@ class game(object):
 				role.weapon = "harmmer"
 			else:
 				role.weapon = "sword"
-			print "Horno is your life, great warrior!"
+			print "Honour is your life, great warrior!"
 		elif marks in [7,8]:
 			role.career = "Ancher"
 			role.agility = randint(14,18)
@@ -71,6 +72,7 @@ class game(object):
 			print "Magic is everything, noble wizard!"
 
 		print "Now, start your advanture, my %s !" % role.career
+		raw_input("The first mission is Valley, please press Enter to start.")
 		return 'valley'
 
 	def play(self):
@@ -79,6 +81,10 @@ class game(object):
 			print "\n*********************"
 			mission = getattr(self,next_mission_name)
 			next_mission_name = mission(self.myrole)
+	
+	def fight(self, role):
+		role.attack()
+
 
 	def valley(self, role):
 		print "Here is valley, a gaint's manor"
@@ -93,22 +99,22 @@ class game(object):
 			print "just figth"
 			for x in xrange(10):
 				print role.attack()
-
 		else:
 			if role.luck > 7:
 				print "Are you kidding me? Luck point %d" % role.luck
-				print "The gaint won't play with a luck guy, just go!"
+				print "The gaint won't play with such a luck guy, just go!"
 			else:
 				print "Roll your dice!"
 				raw_input("press Enter to start roll!")
 				yourpoint = randint(1,6)
 				print "You got %d points" % yourpoint
 				print "It's the gaint's turn now"
-				raw_input("press Enter")
+				raw_input("press Enter to continue")
 				G_point = randint(1,6)
 				print "The gaint got %d points." % G_point
 				if yourpoint > G_point:
 					print "you win! just go to next mission, luck guy!"
+					raw_input("press Enter to go to dark jungle")
 				else:
 					print "Loser, you will be the gaint's meal."
 					return 'death'
@@ -149,11 +155,11 @@ class role(object):
 		self.weapon = properties["weapon"]
 
 		if self.career == "Warrior":
-			self.hp = 120
+			self.hp = 1200
 		elif self.career == "Archer":
-			self.hp = 100
+			self.hp = 1000
 		else:
-			self.hp = 90
+			self.hp = 900
 	
 
 	def attack(self):
@@ -168,7 +174,37 @@ class role(object):
 
 		if randint(0, self.agility) == 0:
 			damage = 0
+			print "miss! make no damage"
+		else:
+			print "You make %.1f points damage" % damage
 		return damage
+
+class monster(object):
+	def __init__(self,name):
+		"""set the monster's properties"""
+		if name == "gaint":
+			self.hp = 1200
+			self.max_damage = 40
+			self.unique_skill = "Frenzy Strike"
+			self.us_damage = 80
+		elif name == "evil wizard":
+			self.hp = 800
+			self.max_damage = 50
+			self.unique_skill = "Ice Blast"
+			self.us_damage = 120
+		elif name == "dragon":
+			self.hp = 1500
+			self.max_damage = 60
+			self.unique_skill = "True Dragon Fire"
+			self.us_damage = 200
+	
+	def attack(self):
+		"""define the monster's attack, return the damage value"""
+		damage = 0
+
+
+
+
 
 
 MyGame = game()
