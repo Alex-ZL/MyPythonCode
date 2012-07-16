@@ -20,7 +20,7 @@ class game(object):
 		print "First, you will have a test to decide your career."
 		raw_input("Press 'Enter' to begin the test!")
 		print "\n"
-		self.test_decide_role()   #first invoke the test to create a role.
+		self.test_decide_role()   #invoke the test to create a role.
 		print "Now, start your advanture, my %s !" % self.myrole.career
 		raw_input("The first mission is Valley, please press Enter to start.")
 	
