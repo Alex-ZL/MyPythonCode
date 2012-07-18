@@ -1,103 +1,112 @@
 #!/usr/bin/python
-## A simple game about magic and sword, enjoy it!
+## A simple Game about magic and sword, enjoy it!
 from random import randint
 from time import sleep
 import sys
 
-class game(object):
+class Game(object):
 
 	def __init__(self):
-		"""create a game and show some welcome words"""
+		"""create a Game and show some welcome words"""
 		print "Welcome to the world of sword and magic!"
 		print "As the chosen one, you have to begin your advanture now!"
 		print "Willing or not, you must do something, or you will never get back home."
 		raw_input("Press 'Enter' to start advanture.")
 		print "\n"
 
+
 	def play(self):
-		""" main method to process the game """
+		""" main method to process the Game """
 
 		print "First, you will have a test to decide your career."
 		raw_input("Press 'Enter' to begin the test!")
 		print "\n"
-		self.test_decide_role()   #invoke the test to create a role.
-		print "Now, start your advanture, my %s !" % self.myrole.career
+		self.test_decide_Role()   #invoke the test to create a Role.
+		print "Now, start your advanture, my %s !" % self.myRole.career
 		raw_input("The first mission is Valley, please press Enter to start.")
 	
 		next_mission_name = 'valley'
 		while 1:
 			print "\n*********************"
 			mission = getattr(self,next_mission_name)
-			next_mission_name = mission(self.myrole)
+			next_mission_name = mission(self.myRole)
 
-	def test_decide_role(self):
-		"""take a test and create a role for this game according to the test result."""
+
+	def get_marks(self, choices):
+		while 1:
+			mark = raw_input(choices)
+			if mark == '2' or mark == '1':
+				return int(mark)
+			else:
+				print "!"*32
+				print "Error input!!!!!! please enter 1 or 2 only!"
+				print "You need to make the choice again.\n"
+
+
+	def test_decide_Role(self):
+		"""take a test and create a Role for this Game according to the test result."""
 		print "*"*32
 
-		marks = 0  #marks decide the role's properties
-		try:
-			print "Which way would you prefer in a fight?"
-			marks += int(raw_input("1: melee combat. 2:hit and run. 1 or 2?\n"))
+		marks = 0  #marks decide the Role's properties
+		print "Which way would you prefer in a fight?"
+		marks += self.get_marks("1: melee combat. 2:hit and run. 1 or 2?\n")
 
-			print "Do you believe magic?"
-			marks += int(raw_input("1: Never.      2: Yes.\n"))
+		print "Do you believe magic?"
+		marks += self.get_marks("1: Never.      2: Yes.\n")
 
-			print "Do you think bow is a dirty weapon?"
-			marks += int(raw_input("1: Yes.      2: No.\n"))
+		print "Do you think bow is a dirty weapon?"
+		marks += self.get_marks("1: Yes.      2: No.\n")
 
-			print "What's the most important thing in fight?"
-			marks += int(raw_input("1: Courage.      2: Intelligence\n"))
+		print "What's the most important thing in fight?"
+		marks += self.get_marks("1: Courage.      2: Intelligence\n")
 
-			print "Which kind of weapon would you prefer?"
-			marks += int(raw_input("1: Sword.      2: Wund\n"))
+		print "Which kind of weapon would you prefer?"
+		marks += self.get_marks("1: Sword.      2: Wund\n")
 
-		except ValueError:
-			print "error input, please enter 1 or 2 only!"
-			print "You need to take the test again."
-			self.test_decide_role()
-
-		self.myrole = role(marks)
+		self.myRole = Role(marks)
 
 
-	def fight(self, role, monster):
-		""" define the figth process between role and monster,
+	def fight(self, Role, Monster):
+		""" define the figth process between Role and Monster,
 		    it won't be over until one side bleeds up his HP"""
-		role_damage = 0
-		monster_damage = 0
-		print "This a fight between %s and %s" % (role.career, monster.name)
-		raw_input("Press Enter to begin your fight with "+monster.name+" !!!")
+		Role_damage = 0
+		Monster_damage = 0
+		print "This a fight between %s and %s" % (Role.career, Monster.name)
+		raw_input("Press Enter to begin your fight with "+Monster.name+" !!!")
 		while 1:
-			if role_damage >= monster.hp:
-				print "You Win! %s" % role.career
-				print "your total damage: ", role_damage
-				print "Monster total damage: ", monster_damage
+			if Role_damage >= Monster.hp:
+				print "You Win! %s" % Role.career
+				print "your total damage: ", Role_damage
+				print "Monster total damage: ", Monster_damage
 				break
 			
-			if monster_damage >= role.hp:
-				print "You lose this fight, %s" % role.career
-				print "your total damage: ", role_damage
-				print "%s total damage: %d " % (monster.name, monster_damage)
+			if Monster_damage >= Role.hp:
+				print "You lose this fight, %s" % Role.career
+				print "your total damage: ", Role_damage
+				print "%s total damage: %d " % (Monster.name, Monster_damage)
 				return 'lose'
 			sleep(1)
 			print ">>>>>>>>"
-			role_damage += role.attack()
+			Role_damage += Role.attack()
 			sleep(1)
 			print ">>>>>>>>"
-			monster_damage += monster.attack()
+			Monster_damage += Monster.attack()
 
-	def death(self, role):
+
+	def death(self, Role):
 		quips = [
 			"Now or never, sorry you failed!",
-			"It's not always the hero win the game",
+			"It's not always the hero win the Game",
 			"Do you really try your best?",
 			"Whatever, try again, you may win next time."
 		]
 		print quips[randint(0, len(quips)-1)]
-		print "You could have been a great " + role.career
+		print "You could have been a great " + Role.career
 		exit(0)
 
-	def valley(self, role):
-		""" to pass through the valley, you need to win a game against gaint,
+
+	def valley(self, Role):
+		""" to pass through the valley, you need to win a Game against gaint,
 		    you could fight with him, or play dice with him, it depends on 
 			your choice."""
 		print "Here is valley, a gaint's manor"
@@ -109,12 +118,12 @@ class game(object):
 			print "Only input 1 or 2 please!"
 			return 'valley'
 		if decide == 1:
-			gaint = monster('Gaint')
-			if self.fight(role,gaint) == 'lose':
+			gaint = Monster('Gaint')
+			if self.fight(Role,gaint) == 'lose':
 				return 'death'
 		else:
-			if role.luck > 7:
-				print "Are you kidding me? Luck point %d" % role.luck
+			if Role.luck > 7:
+				print "Are you kidding me? Luck point %d" % Role.luck
 				print "The gaint won't play with such a luck guy, just go!"
 			else:
 				print "Roll your dice!"
@@ -135,7 +144,8 @@ class game(object):
 		raw_input("Pree Enter to the next mission.")
 		return 'jungle'
 
-	def jungle(self, role):
+
+	def jungle(self, Role):
 		""" Dark jungle lives a evil wizard, if you could answer his riddle,
 		    you could pass through the jungle safely, or you have to get 
 			through over this evil guy's body"""
@@ -165,15 +175,16 @@ class game(object):
 			
 		elif decide == 2:
 			print "You will see what is really darkness."
-			Evil_Wizard = monster("Evil Wizard")
-			if self.fight(role, Evil_Wizard) == 'lose':
+			Evil_Wizard = Monster("Evil Wizard")
+			if self.fight(Role, Evil_Wizard) == 'lose':
 				return 'death'
 		print "You are a man with light in heart even in darkness, you win!"
 		raw_input("Pree Enter to the next mission.")
 		return 'castle'
 
-	def castle(self, role):
-		""" Powerful dragon is the last monster you need to face, there is no
+
+	def castle(self, Role):
+		""" Powerful dragon is the last Monster you need to face, there is no
 		    other way rather than fightting could pass through it, so prepare
 			yourself, and make the final fight """
 		print "Lo and behold, you get to the dragon's castle"
@@ -190,7 +201,7 @@ class game(object):
 		print "1: abandon weapon and go home.    2. fight anyway."
 		decide = raw_input(">>>")
 		if decide == '1':
-			print "@Dragon: It's really a good %s." % role.weapon
+			print "@Dragon: It's really a good %s." % Role.weapon
 			sleep(2)
 			print "@Dragon: Stupid worm, go to the hell to find your home!!!"
 			sleep(3)
@@ -199,8 +210,8 @@ class game(object):
 			return 'death'
 		else:
 			print "@Dragon: You will see a dragon's wrath, worm."
-			Dragon = monster("Dragon")
-			if self.fight(role, Dragon) == 'lose':
+			Dragon = Monster("Dragon")
+			if self.fight(Role, Dragon) == 'lose':
 				return 'death'
 		print "*********************************************"
 		print "*       WELCOME  BACK  HOME, WINNER!        *"
@@ -209,11 +220,13 @@ class game(object):
 		print "*********************************************"
 		exit(1)
 
-class role(object):
-	"""basic role with properties and actions"""
+
+
+class Role(object):
+	"""basic Role with properties and actions"""
 
 	def __init__(self, marks):
-		""" set the role's basic properties depend the marks in test"""
+		""" set the Role's basic properties depend the marks in test"""
 
 		if marks in [5,6]:
 			self.career = "Warrior"
@@ -260,6 +273,7 @@ class role(object):
 		print "*     Luck: %d               " % self.luck
 		print "*********************************************"
 
+
 	def attack(self):
 		"""attack method return damage value depending on career"""
 
@@ -281,9 +295,11 @@ class role(object):
 			print "You hit it and  make %.1f points damage" % damage
 		return damage
 
-class monster(object):
+
+
+class Monster(object):
 	def __init__(self,name):
-		"""set the monster's properties"""
+		"""set the Monster's properties"""
 		if name == "Gaint":
 			self.hp = 600
 			self.name = name
@@ -308,9 +324,10 @@ class monster(object):
 			self.us_damage = 150
 			self.hit_rate = 7
 			self.skill_rate = 3
-	
+
+
 	def attack(self):
-		"""define the monster's attack, return the damage value"""
+		"""define the Monster's attack, return the damage value"""
 		damage = 0
 		if randint(1,10) > self.hit_rate:
 			print "%s missed this attack, good luck!" % self.name
@@ -326,5 +343,6 @@ class monster(object):
 		return damage
 
 
-MyGame = game()
-MyGame.play()
+if __name__ == '__main__':
+	MyGame = Game()
+	MyGame.play()
