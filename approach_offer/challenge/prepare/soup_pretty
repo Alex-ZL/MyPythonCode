@@ -1,0 +1,974 @@
+<html>
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <link href="/images/bbs.css?Net_3" rel="stylesheet" type="text/css"/>
+ </head>
+ <script src="/js/bbs.js?Net_9">
+ </script>
+ <body background="/image/back.gif" bgproperties="fixed">
+  <center>
+   <table>
+    <tr>
+     <td>
+      <img src="/image/board.bmp"/>
+     </td>
+     <td>
+      <font style="font-size:18px;">
+       <b>
+        Girls(女生天地)
+       </b>
+      </font>
+     </td>
+    </tr>
+   </table>
+   <nobr>
+    <table width="670">
+     <tr style="height:14px">
+      <td align="left">
+       本版域名:
+       <a href="javascript:Net.Util.addFav('/g/Girls','南京大学小百合站Girls版')">
+        http://bbs.nju.edu.cn/g/Girls
+       </a>
+       , 版主:
+       <a href="bbsqry?userid=lyandlj">
+        lyandlj
+       </a>
+       <a href="bbsqry?userid=lovelyland">
+        lovelyland
+       </a>
+       , 版内在线: 153人.
+      </td>
+      <td align="right">
+       <a href="bbsdoc?board=Girls&amp;start=7043">
+        ↑
+       </a>
+       ,
+       <a href="bbsbrdadd?board=Girls" onclick='return confirm("您的确要把这个版加入预定讨论区吗")'>
+        订阅本版
+       </a>
+      </td>
+     </tr>
+    </table>
+    <table width="670">
+     <tr style="height:14px">
+      <td>
+       <b>
+        版主寄语
+       </b>
+       :
+       <font color="#308080">
+        想恋爱了？来Girls版！
+       </font>
+      </td>
+     </tr>
+    </table>
+    <hr color="green" width="670"/>
+    <table width="670">
+     <tr bgcolor="e8e8e8">
+      <td>
+       序号
+      </td>
+      <td>
+       状态
+      </td>
+      <td>
+       作者
+      </td>
+      <td>
+      </td>
+      <td width="72">
+       日期
+      </td>
+      <td>
+       标题
+      </td>
+      <td>
+       人气
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <img src="/download/hot.gif"/>
+      </td>
+      <td>
+       <font color="green">
+        <nobr>
+         置顶
+        </nobr>
+       </font>
+      </td>
+      <td>
+       <a href="bbsqry?userid=lyandlj">
+        lyandlj
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <nobr>
+        May  1 00:01
+        <td>
+         <a href="bbstcon?board=Girls&amp;file=M.1241107295.A">
+          ○ Girls版工作细则
+         </a>
+         (
+         <font style="font-size:12px; color:#f00000">
+          3.3K
+         </font>
+         )
+        </td>
+        <td>
+         <font color="red">
+          38027
+         </font>
+        </td>
+        <tr>
+         <td>
+          <img src="/download/hot.gif"/>
+         </td>
+         <td>
+          <font color="green">
+           <nobr>
+            置顶
+           </nobr>
+          </font>
+         </td>
+         <td>
+          <a href="bbsqry?userid=ImSorry">
+           ImSorry
+          </a>
+         </td>
+         <td>
+         </td>
+         <td>
+          <nobr>
+           Jun 19 14:44
+           <td>
+            <a href="bbstcon?board=Girls&amp;file=M.1276929864.A">
+             ○ 沿着胡同，去寻找那灿烂盛开的紫荆花
+            </a>
+            (
+            <font style="font-size:12px; color:#f00000">
+             7.4K
+            </font>
+            )
+           </td>
+           <td>
+            <font color="red">
+             62225
+            </font>
+           </td>
+           <tr>
+            <td>
+             <img src="/download/hot.gif"/>
+            </td>
+            <td>
+             <font color="green">
+              <nobr>
+               置顶
+              </nobr>
+             </font>
+            </td>
+            <td>
+             <a href="bbsqry?userid=Chico">
+              Chico
+             </a>
+            </td>
+            <td>
+            </td>
+            <td>
+             <nobr>
+              Jan 25 23:15
+              <td>
+               <a href="bbstcon?board=Girls&amp;file=M.1295968508.A">
+                ○ 纪念七年异地恋
+               </a>
+               (
+               <font style="font-size:12px; color:#f00000">
+                3.3K
+               </font>
+               )
+              </td>
+              <td>
+               <font color="red">
+                73845
+               </font>
+              </td>
+              <tr>
+               <td>
+                <img src="/download/hot.gif"/>
+               </td>
+               <td>
+                <font color="green">
+                 <nobr>
+                  置顶
+                 </nobr>
+                </font>
+               </td>
+               <td>
+                <a href="bbsqry?userid=lovelyland">
+                 lovelyland
+                </a>
+               </td>
+               <td>
+               </td>
+               <td>
+                <nobr>
+                 Jul 13 22:24
+                 <td>
+                  <a href="bbstcon?board=Girls&amp;file=M.1342189458.A">
+                   ○ 本版不欢迎版聊
+                  </a>
+                  (
+                  <font style="font-size:12px; color:#008080">
+                   172字节
+                  </font>
+                  )
+                 </td>
+                 <td>
+                  <font color="red">
+                   957
+                  </font>
+                 </td>
+                 <tr>
+                  <td>
+                   7064
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                   <a href="bbsqry?userid=Charles888">
+                    Charles888
+                   </a>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                   <nobr>
+                    Jul 25 14:03
+                    <td>
+                     <a href="bbscon?board=Girls&amp;file=M.1343196217.A&amp;num=7063">
+                      Re: 如果你知道以后绝对绝对没有可能在一起，但是互
+                     </a>
+                     (
+                     <font style="font-size:12px; color:#008080">
+                      26字节
+                     </font>
+                     )
+                    </td>
+                    <td>
+                     <font color="black">
+                      7
+                     </font>
+                    </td>
+                    <tr>
+                     <td>
+                      7065
+                     </td>
+                     <td>
+                     </td>
+                     <td>
+                      <a href="bbsqry?userid=Charles888">
+                       Charles888
+                      </a>
+                     </td>
+                     <td>
+                     </td>
+                     <td>
+                      <nobr>
+                       Jul 25 14:06
+                       <td>
+                        <a href="bbscon?board=Girls&amp;file=M.1343196385.A&amp;num=7064">
+                         Re: 给MEMAN先生，也给版上各位
+                        </a>
+                        (
+                        <font style="font-size:12px; color:#008080">
+                         87字节
+                        </font>
+                        )
+                       </td>
+                       <td>
+                        <font color="black">
+                         5
+                        </font>
+                       </td>
+                       <tr>
+                        <td>
+                         7066
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                         <a href="bbsqry?userid=nancyq2004">
+                          nancyq2004
+                         </a>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                         <nobr>
+                          Jul 25 14:09
+                          <td>
+                           <a href="bbscon?board=Girls&amp;file=M.1343196564.A&amp;num=7065">
+                            Re: 傍老外的女生们究竟怎么想的
+                           </a>
+                           (
+                           <font style="font-size:12px; color:#008080">
+                            256字节
+                           </font>
+                           )
+                          </td>
+                          <td>
+                           <font color="black">
+                            6
+                           </font>
+                          </td>
+                          <tr>
+                           <td>
+                            7067
+                           </td>
+                           <td>
+                           </td>
+                           <td>
+                            <a href="bbsqry?userid=sunshineyu">
+                             sunshineyu
+                            </a>
+                           </td>
+                           <td>
+                           </td>
+                           <td>
+                            <nobr>
+                             Jul 25 14:09
+                             <td>
+                              <a href="bbscon?board=Girls&amp;file=M.1343196581.A&amp;num=7066">
+                               ○ 非诚勿扰
+                              </a>
+                              (
+                              <font style="font-size:12px; color:#008080">
+                               30字节
+                              </font>
+                              )
+                             </td>
+                             <td>
+                              <font color="red">
+                               127
+                              </font>
+                             </td>
+                             <tr>
+                              <td>
+                               7068
+                              </td>
+                              <td>
+                              </td>
+                              <td>
+                               <a href="bbsqry?userid=charles8star">
+                                charles8star
+                               </a>
+                              </td>
+                              <td>
+                              </td>
+                              <td>
+                               <nobr>
+                                Jul 25 14:09
+                                <td>
+                                 <a href="bbscon?board=Girls&amp;file=M.1343196588.A&amp;num=7067">
+                                  Re: 给MEMAN先生，也给版上各位
+                                 </a>
+                                 (
+                                 <font style="font-size:12px; color:#008080">
+                                  188字节
+                                 </font>
+                                 )
+                                </td>
+                                <td>
+                                 <font color="black">
+                                  7
+                                 </font>
+                                </td>
+                                <tr>
+                                 <td>
+                                  7069
+                                 </td>
+                                 <td>
+                                 </td>
+                                 <td>
+                                  <a href="bbsqry?userid=charles8star">
+                                   charles8star
+                                  </a>
+                                 </td>
+                                 <td>
+                                 </td>
+                                 <td>
+                                  <nobr>
+                                   Jul 25 14:10
+                                   <td>
+                                    <a href="bbscon?board=Girls&amp;file=M.1343196601.A&amp;num=7068">
+                                     Re: 非诚勿扰
+                                    </a>
+                                    (
+                                    <font style="font-size:12px; color:#008080">
+                                     12字节
+                                    </font>
+                                    )
+                                   </td>
+                                   <td>
+                                    <font color="black">
+                                     10
+                                    </font>
+                                   </td>
+                                   <tr>
+                                    <td>
+                                     7070
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                     <a href="bbsqry?userid=trilobite">
+                                      trilobite
+                                     </a>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                     <nobr>
+                                      Jul 25 14:10
+                                      <td>
+                                       <a href="bbscon?board=Girls&amp;file=M.1343196614.A&amp;num=7069">
+                                        Re: 傍老外的女生们究竟怎么想的
+                                       </a>
+                                       (
+                                       <font style="font-size:12px; color:#008080">
+                                        187字节
+                                       </font>
+                                       )
+                                      </td>
+                                      <td>
+                                       <font color="black">
+                                        8
+                                       </font>
+                                      </td>
+                                      <tr>
+                                       <td>
+                                        7071
+                                       </td>
+                                       <td>
+                                       </td>
+                                       <td>
+                                        <a href="bbsqry?userid=1573">
+                                         1573
+                                        </a>
+                                       </td>
+                                       <td>
+                                       </td>
+                                       <td>
+                                        <nobr>
+                                         Jul 25 14:10
+                                         <td>
+                                          <a href="bbscon?board=Girls&amp;file=M.1343196641.A&amp;num=7070">
+                                           Re: 非诚勿扰
+                                          </a>
+                                          (
+                                          <font style="font-size:12px; color:#008080">
+                                           16字节
+                                          </font>
+                                          )
+                                         </td>
+                                         <td>
+                                          <font color="black">
+                                           8
+                                          </font>
+                                         </td>
+                                         <tr>
+                                          <td>
+                                           7072
+                                          </td>
+                                          <td>
+                                          </td>
+                                          <td>
+                                           <a href="bbsqry?userid=1001">
+                                            1001
+                                           </a>
+                                          </td>
+                                          <td>
+                                          </td>
+                                          <td>
+                                           <nobr>
+                                            Jul 25 14:18
+                                            <td>
+                                             <a href="bbscon?board=Girls&amp;file=M.1343197118.A&amp;num=7071">
+                                              Re: 傍老外的女生们究竟怎么想的
+                                             </a>
+                                             (
+                                             <font style="font-size:12px; color:#008080">
+                                              100字节
+                                             </font>
+                                             )
+                                            </td>
+                                            <td>
+                                             <font color="black">
+                                              4
+                                             </font>
+                                            </td>
+                                            <tr>
+                                             <td>
+                                              7073
+                                             </td>
+                                             <td>
+                                             </td>
+                                             <td>
+                                              <a href="bbsqry?userid=jingliing">
+                                               jingliing
+                                              </a>
+                                             </td>
+                                             <td>
+                                             </td>
+                                             <td>
+                                              <nobr>
+                                               Jul 25 14:22
+                                               <td>
+                                                <a href="bbscon?board=Girls&amp;file=M.1343197321.A&amp;num=7072">
+                                                 ○ 丝与学术
+                                                </a>
+                                                (
+                                                <font style="font-size:12px; color:#008080">
+                                                 132字节
+                                                </font>
+                                                )
+                                               </td>
+                                               <td>
+                                                <font color="black">
+                                                 95
+                                                </font>
+                                               </td>
+                                               <tr>
+                                                <td>
+                                                 7074
+                                                </td>
+                                                <td>
+                                                </td>
+                                                <td>
+                                                 <a href="bbsqry?userid=chunxiang">
+                                                  chunxiang
+                                                 </a>
+                                                </td>
+                                                <td>
+                                                </td>
+                                                <td>
+                                                 <nobr>
+                                                  Jul 25 14:24
+                                                  <td>
+                                                   <a href="bbscon?board=Girls&amp;file=M.1343197449.A&amp;num=7073">
+                                                    Re: 丝与学术
+                                                   </a>
+                                                   (
+                                                   <font style="font-size:12px; color:#008080">
+                                                    22字节
+                                                   </font>
+                                                   )
+                                                  </td>
+                                                  <td>
+                                                   <font color="black">
+                                                    9
+                                                   </font>
+                                                  </td>
+                                                  <tr>
+                                                   <td>
+                                                    7075
+                                                   </td>
+                                                   <td>
+                                                   </td>
+                                                   <td>
+                                                    <a href="bbsqry?userid=MEMAN">
+                                                     MEMAN
+                                                    </a>
+                                                   </td>
+                                                   <td>
+                                                   </td>
+                                                   <td>
+                                                    <nobr>
+                                                     Jul 25 14:29
+                                                     <td>
+                                                      <a href="bbscon?board=Girls&amp;file=M.1343197776.A&amp;num=7074">
+                                                       Re: 傍老外的女生们究竟怎么想的
+                                                      </a>
+                                                      (
+                                                      <font style="font-size:12px; color:#008080">
+                                                       68字节
+                                                      </font>
+                                                      )
+                                                     </td>
+                                                     <td>
+                                                      <font color="black">
+                                                       9
+                                                      </font>
+                                                     </td>
+                                                     <tr>
+                                                      <td>
+                                                       7076
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td>
+                                                       <a href="bbsqry?userid=achang">
+                                                        achang
+                                                       </a>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td>
+                                                       <nobr>
+                                                        Jul 25 14:33
+                                                        <td>
+                                                         <a href="bbscon?board=Girls&amp;file=M.1343197983.A&amp;num=7075">
+                                                          Re: 我只是想跟喜欢的人在一起？
+                                                         </a>
+                                                         (
+                                                         <font style="font-size:12px; color:#008080">
+                                                          120字节
+                                                         </font>
+                                                         )
+                                                        </td>
+                                                        <td>
+                                                         <font color="black">
+                                                          5
+                                                         </font>
+                                                        </td>
+                                                        <tr>
+                                                         <td>
+                                                          7077
+                                                         </td>
+                                                         <td>
+                                                         </td>
+                                                         <td>
+                                                          <a href="bbsqry?userid=MEMAN">
+                                                           MEMAN
+                                                          </a>
+                                                         </td>
+                                                         <td>
+                                                         </td>
+                                                         <td>
+                                                          <nobr>
+                                                           Jul 25 14:33
+                                                           <td>
+                                                            <a href="bbscon?board=Girls&amp;file=M.1343198013.A&amp;num=7076">
+                                                             Re: 傍老外的女生们究竟怎么想的
+                                                            </a>
+                                                            (
+                                                            <font style="font-size:12px; color:#008080">
+                                                             195字节
+                                                            </font>
+                                                            )
+                                                           </td>
+                                                           <td>
+                                                            <font color="black">
+                                                             7
+                                                            </font>
+                                                           </td>
+                                                           <tr>
+                                                            <td>
+                                                             7078
+                                                            </td>
+                                                            <td>
+                                                            </td>
+                                                            <td>
+                                                             <a href="bbsqry?userid=soyo">
+                                                              soyo
+                                                             </a>
+                                                            </td>
+                                                            <td>
+                                                            </td>
+                                                            <td>
+                                                             <nobr>
+                                                              Jul 25 14:33
+                                                              <td>
+                                                               <a href="bbscon?board=Girls&amp;file=M.1343198025.A&amp;num=7077">
+                                                                Re: 傍老外的女生们究竟怎么想的
+                                                               </a>
+                                                               (
+                                                               <font style="font-size:12px; color:#008080">
+                                                                57字节
+                                                               </font>
+                                                               )
+                                                              </td>
+                                                              <td>
+                                                               <font color="black">
+                                                                5
+                                                               </font>
+                                                              </td>
+                                                              <tr>
+                                                               <td>
+                                                                7079
+                                                               </td>
+                                                               <td>
+                                                               </td>
+                                                               <td>
+                                                                <a href="bbsqry?userid=indiana314">
+                                                                 indiana314
+                                                                </a>
+                                                               </td>
+                                                               <td>
+                                                               </td>
+                                                               <td>
+                                                                <nobr>
+                                                                 Jul 25 14:38
+                                                                 <td>
+                                                                  <a href="bbscon?board=Girls&amp;file=M.1343198295.A&amp;num=7078">
+                                                                   Re: 世界人民大团结万岁
+                                                                  </a>
+                                                                  (
+                                                                  <font style="font-size:12px; color:#008080">
+                                                                   455字节
+                                                                  </font>
+                                                                  )
+                                                                 </td>
+                                                                 <td>
+                                                                  <font color="black">
+                                                                   8
+                                                                  </font>
+                                                                 </td>
+                                                                 <tr>
+                                                                  <td>
+                                                                   7080
+                                                                  </td>
+                                                                  <td>
+                                                                  </td>
+                                                                  <td>
+                                                                   <a href="bbsqry?userid=xgggde">
+                                                                    xgggde
+                                                                   </a>
+                                                                  </td>
+                                                                  <td>
+                                                                  </td>
+                                                                  <td>
+                                                                   <nobr>
+                                                                    Jul 25 14:38
+                                                                    <td>
+                                                                     <a href="bbscon?board=Girls&amp;file=M.1343198296.A&amp;num=7079">
+                                                                      Re: 丝与学术
+                                                                     </a>
+                                                                     (
+                                                                     <font style="font-size:12px; color:#008080">
+                                                                      1字节
+                                                                     </font>
+                                                                     )
+                                                                    </td>
+                                                                    <td>
+                                                                     <font color="black">
+                                                                      4
+                                                                     </font>
+                                                                    </td>
+                                                                    <tr>
+                                                                     <td>
+                                                                      7081
+                                                                     </td>
+                                                                     <td>
+                                                                     </td>
+                                                                     <td>
+                                                                      <a href="bbsqry?userid=xgggde">
+                                                                       xgggde
+                                                                      </a>
+                                                                     </td>
+                                                                     <td>
+                                                                     </td>
+                                                                     <td>
+                                                                      <nobr>
+                                                                       Jul 25 14:39
+                                                                       <td>
+                                                                        <a href="bbscon?board=Girls&amp;file=M.1343198385.A&amp;num=7080">
+                                                                         Re: 给MEMAN先生，也给版上各位
+                                                                        </a>
+                                                                        (
+                                                                        <font style="font-size:12px; color:#008080">
+                                                                         4字节
+                                                                        </font>
+                                                                        )
+                                                                       </td>
+                                                                       <td>
+                                                                        <font color="black">
+                                                                         7
+                                                                        </font>
+                                                                       </td>
+                                                                       <tr>
+                                                                        <td>
+                                                                         7082
+                                                                        </td>
+                                                                        <td>
+                                                                        </td>
+                                                                        <td>
+                                                                         <a href="bbsqry?userid=Charles888">
+                                                                          Charles888
+                                                                         </a>
+                                                                        </td>
+                                                                        <td>
+                                                                        </td>
+                                                                        <td>
+                                                                         <nobr>
+                                                                          Jul 25 14:42
+                                                                          <td>
+                                                                           <a href="bbscon?board=Girls&amp;file=M.1343198520.A&amp;num=7081">
+                                                                            Re: 丝与学术
+                                                                           </a>
+                                                                           (
+                                                                           <font style="font-size:12px; color:#008080">
+                                                                            6字节
+                                                                           </font>
+                                                                           )
+                                                                          </td>
+                                                                          <td>
+                                                                           <font color="black">
+                                                                            2
+                                                                           </font>
+                                                                          </td>
+                                                                          <tr>
+                                                                           <td>
+                                                                            7083
+                                                                           </td>
+                                                                           <td>
+                                                                           </td>
+                                                                           <td>
+                                                                            <a href="bbsqry?userid=sunyunsun">
+                                                                             sunyunsun
+                                                                            </a>
+                                                                           </td>
+                                                                           <td>
+                                                                           </td>
+                                                                           <td>
+                                                                            <nobr>
+                                                                             Jul 25 14:50
+                                                                             <td>
+                                                                              <a href="bbscon?board=Girls&amp;file=M.1343199034.A&amp;num=7082">
+                                                                               Re: 在外地基层政府工作的悲哀
+                                                                              </a>
+                                                                              (
+                                                                              <font style="font-size:12px; color:#008080">
+                                                                               26字节
+                                                                              </font>
+                                                                              )
+                                                                             </td>
+                                                                             <td>
+                                                                              <font color="black">
+                                                                               1
+                                                                              </font>
+                                                                             </td>
+                                                                            </nobr>
+                                                                           </td>
+                                                                          </tr>
+                                                                         </nobr>
+                                                                        </td>
+                                                                       </tr>
+                                                                      </nobr>
+                                                                     </td>
+                                                                    </tr>
+                                                                   </nobr>
+                                                                  </td>
+                                                                 </tr>
+                                                                </nobr>
+                                                               </td>
+                                                              </tr>
+                                                             </nobr>
+                                                            </td>
+                                                           </tr>
+                                                          </nobr>
+                                                         </td>
+                                                        </tr>
+                                                       </nobr>
+                                                      </td>
+                                                     </tr>
+                                                    </nobr>
+                                                   </td>
+                                                  </tr>
+                                                 </nobr>
+                                                </td>
+                                               </tr>
+                                              </nobr>
+                                             </td>
+                                            </tr>
+                                           </nobr>
+                                          </td>
+                                         </tr>
+                                        </nobr>
+                                       </td>
+                                      </tr>
+                                     </nobr>
+                                    </td>
+                                   </tr>
+                                  </nobr>
+                                 </td>
+                                </tr>
+                               </nobr>
+                              </td>
+                             </tr>
+                            </nobr>
+                           </td>
+                          </tr>
+                         </nobr>
+                        </td>
+                       </tr>
+                      </nobr>
+                     </td>
+                    </tr>
+                   </nobr>
+                  </td>
+                 </tr>
+                </nobr>
+               </td>
+              </tr>
+             </nobr>
+            </td>
+           </tr>
+          </nobr>
+         </td>
+        </tr>
+       </nobr>
+      </td>
+     </tr>
+    </table>
+    <hr color="green" width="670"/>
+    <nobr>
+     <script>
+      Net.BBS.checkFrame()
+     </script>
+     <a href="bbspst?board=Girls">
+      发表文章
+     </a>
+     <a href="bbsfdoc?board=Girls">
+      上载区
+     </a>
+     <a href="javascript:location=location">
+      刷新
+     </a>
+     <a href="bbsdoc?board=Girls&amp;start=7043&amp;type=doc">
+      上一页
+     </a>
+     <a href="bbstdoc?board=Girls">
+      主题模式
+     </a>
+     <a href="bbsnot?board=Girls">
+      进版画面
+     </a>
+     <a href="bbsgdoc?board=Girls">
+      文摘区
+     </a>
+     <a href="bbs0an?path=/groups/GROUP_7/Girls">
+      精华区
+     </a>
+     <a href="/an/Girls.tgz">
+      下载精华区
+     </a>
+     <a href="bbsbfind?board=Girls">
+      版内查询
+     </a>
+     <a href="bbsafind?board=Girls">
+      精华区查询
+     </a>
+    </nobr>
+    <form action="bbsdoc?board=Girls" method="post" name="form1" onsubmit="this.start.value-=1">
+     <input type="submit" value="跳转到"/>
+     第
+     <input name="start" size="4" type="text"/>
+     篇
+    </form>
+   </nobr>
+  </center>
+ </body>
+</html>
