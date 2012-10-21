@@ -9,7 +9,8 @@ class DefaultTestCase(unittest.TestCase):
 		self.what = ''
 	
 	def testrun1(self):
-		self.assert_(self.what == 'foo', 'incorrect default size')
+		#self.assert_(self.what == 'foo', 'incorrect default size')
+		assert self.what == 'for', 'failed testRun1'
 
 	def testrun2(self):
 		self.assert_(self.what == 'ever', 'incorrect answer 2')
