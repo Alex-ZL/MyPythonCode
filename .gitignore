@@ -1,2 +1,4 @@
 ##igonre pyc files
 *.pyc
+*.out
+*.swp
