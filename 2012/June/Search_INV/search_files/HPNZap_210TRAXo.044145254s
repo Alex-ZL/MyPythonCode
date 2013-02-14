@@ -1,0 +1,314 @@
+INH187491NZD                     SIN  TRG   SIN ACT NZ H2103 100001000000000HEWLEWELLI391468           000001706687  00001706687                      120607E 120607JNI00608600601206      H  AKL839102                                                                                                                                       00001287082 00000226543             00000193062                         00001513625 00001706687AE               NZ                          AKLC  NZ H2103 AKLNVOAAPHP
+IHV187491NZT 101001150000000012870820000000193062999999999999999999999999999391468AE               NZ H2103
+IHV187491NZZ 970909    0000000226543             999999999999999999999999999391468AE               NZ H2103
+IND18749161NZD EN 606          00001000000000 00000001000 00000003300CUSTOMS CLEARANCE -IMPORT ENTRY    AKL61 00000003300       00000003300 00000003300N839102T                                         15000000019306200000193062
+IND18749162NZDPS1 668          00001000000000 00000001000 00000226543THIRD PARTY OCEAN FREIGHT          AKL62                   00000226543 00000226543N839102Z
+IND18749163NZDPS1 680          00001000000000 00000001000 00000003500THIRD PARTY SHIPS DELIVERY SERVICE AKL63                   00000003500 00000003500N839102T                                         15000000019306200000193062
+IND18749164NZDPS1 678          00001000000000 00000001000 00000653100THIRD PARTY PORT SERVICE CHARGE    AKL64                   00000653100 00000653100N839102T                                         15000000019306200000193062
+IND18749165NZDTEU 854          00001000000000 00000001000 0000001750020' CDO CARTAGE                    AKL65 00000017500       00000017500 00000017500N839102T                                         15000000019306200000193062
+IND18749166NZD%   856          00001000000000 00000175000 0000000160120'FUEL ADJUSTMENT FACTOR          AKL66 00000000915       00000001601 00000001601N839102T                                         15000000019306200000193062
+IND18749167NZDFEU 854          00001000000000 00000003000 0000008700040' CDO CARTAGE                    AKL67 00000029000       00000087000 00000087000N839102T                                         15000000019306200000193062
+IND18749168NZD%   856          00001000000000 00000870000 00000007961CDO FUEL ADJUSTMENT FACTOR         AKL68 00000000915       00000007961 00000007961N839102T                                         15000000019306200000193062
+IND18749169NZDFEU 854          00001000000000 00000008000 0000044000040' VDP CARTAGE                    AKL69 00000055000       00000440000 00000440000N839102T                                         15000000019306200000193062
+IND18749170NZD%   856          00001000000000 00004400000 00000030360VDP FUEL ADJUSTMENT FACTOR         AKL70 00000000690       00000030360 00000030360N839102T                                         15000000019306200000193062
+IND18749171NZDPS1 854          00001000000000 00000004000 0000004000040' VDP CARTAGE                    AKL71 00000010000       00000040000 00000040000N839102T                                         15000000019306200000193062
+IND18749172NZD%   856          00001000000000 00000400000 00000002760VDP FUEL ADJUSTMENT FACTOR         AKL72 00000000690       00000002760 00000002760N839102T                                         15000000019306200000193062
+IAF187491                         CNREAS
+DOSAKL839102SIN  TRG  SGSINNZAKL          NZAKL                             D 3            556516829        556516829                                             SGSIN         006086006000060860060M3 541200000012                             MAERSK JENAZ                                                               U                                                                                                                                                                                           227                CDZ                                                                                                                       0000541200                                                                        MAERSK JENAZ   APHP55976TRG  YANG XU                            55976614016140155976                               SGNZ                                                                                        1206072246
+TMPAKL839102                       A17001120312095200                                                            1
+TMPAKL839102                       A34001120311214000                                   NZAKL                    1
+TMPAKL839102                       A04001                                                                     AF 1
+TMPAKL839102                       A28001                                                                     C  1
+TMPAKL839102                       A29001120322                                         NZAKL                 E  1
+TMPAKL839102                       A63001                                                                        1
+TMPAKL839102                       A30001                                                                        1
+TMPAKL839102                       A05001                                                                     X4 1
+TMPAKL839102                       A42001                                                                        1
+TMPAKL839102                       A11001                                                                  29 A  1
+TMPAKL839102                       A60001                                                                  74    1
+TMPAKL839102                       A32001120326074800EDI  UPLOAD       TAP              NZAKL              74    1
+TMPAKL839102                       A18001                                                                        1
+TMPAKL839102                       A19001                                                                        1
+TMPAKL839102                       A31001                                                                        1
+TMPAKL839102                       A35001                                                                        1
+TMPAKL839102                       A22001                                                                        1
+TMPAKL839102                       A90001                                                                        1
+TMPAKL839102                       A20001                                                                        1
+TMPAKL839102                       A50001                                                                        1
+TMPAKL839102                       A45001                                                                     VD 1
+TMPAKL839102                       A02001                                                                  47 X3 1
+TMPAKL839102                       A12001                                                                  78 AV 1
+TMPAKL839102                       A06001                                                                  48 P  1
+TMPAKL839102                       A15001                                                                  28 D  1
+TMPAKL839102                       A56001                                                                        1
+TMPAKL839102                       A57001                                                                        1
+TMPAKL839102                       A58001                                                                        1
+TMPAKL839102                       A59001                                                                        1
+TMPAKL839102                       A62001                                                                        1
+TMPAKL839102                       A77001                                                                        1
+TMPAKL839102                       A37001                                                                  74    1
+TMPAKL839102                       A41001                                                                  68    1
+TMPAKL839102                       A3900112032114570075723112                           NZAKL              12    1
+TMPAKL839102                       A36001                                                                  6     1
+TMPAKL839102                       A13001                                                                  21 D  1
+TMPAKL839102                       A88001                                                                        1
+TMPAKL839102                       A65001                                                                        1
+TMPAKL839102                       A78001                                                                        1
+TMPAKL839102                       A73001                                                                        1
+TMPAKL839102                       A74001120323143714                                   NZAKL                    1
+TMPAKL839102                       A79001                                                                        1
+TMPAKL839102                       A91001                                                                        1
+TMPAKL839102                       A47001                                                                        1
+TMPAKL839102                       A72001                                                                        1
+TMPAKL839102                       A76001                                                                        1
+TMPAKL839102                       A48001                                                                     64 1
+TMPAKL839102                       A70001                                                                        1
+TMPAKL839102                       A84001                                                                        1
+TMPAKL839102                       A85001                                                                        1
+TMPAKL839102                       A86001                                                                        1
+TMPAKL839102                       A87001                                                                        1
+TMPAKL839102                       A21001                                                                        1
+TMPAKL839102                       A25001                                                                     OB 1
+TMPAKL839102                       A26001                                                                        1
+TMPAKL839102                       A80001                                                                        1
+TMPAKL839102                       A81001                                                                        1
+TMPAKL839102                       A82001                                                                        1
+TMPAKL839102                       A83001                                                                        1
+TMPAKL839102                       A33001                                                                        1
+TMPAKL839102                       A08001                                                                  86 ?  1
+TMPAKL839102                       A46001                                                                     VA 1
+TMPAKL839102                       A75001                                                                        1
+TMPAKL839102                       A64001                                                                        1
+TMPAKL839102                       A16001                                                                  82 RD 1
+TMPAKL839102                       A27001                                                                        1
+TMPAKL839102                       A03001                                                                  93 L  1
+TMPAKL839102                       A01001                                                                  27 EE 1
+TMPAKL839102                       A07001                                                                     AM 1
+TMPAKL839102                       A14001                                                                  21 X1 1
+TMPAKL839102                       A23001                                                                        1
+TMPAKL839102                       A24001                                                                        1
+TMPAKL839102                       A40001                                                                  14    1
+TMPAKL839102                       A96001                                                                        1
+TMPAKL839102                       A97001                                                                        1
+TMPAKL839102                       A66001                                                                        1
+TMPAKL839102                       A67001                                                                        1
+TMPAKL839102                       A38001                                                                  3     1
+TMPAKL839102                       A51001                                                                        1
+TMPAKL839102                       A52001                                                                        1
+TMPAKL839102                       A53001                                                                        1
+TMPAKL839102                       A54001                                                                        1
+TMPAKL839102                       A61001                                                                        1
+TMPAKL839102                       A43001                                                                     UV 1
+TMPAKL839102                       A68001                                                                        1
+TMPAKL839102                       A69001                                                                        1
+TMPAKL839102                       A55001                                                                        1
+TMPAKL839102                       A95001                                                                        1
+TMPAKL839102                       A98001                                                                        1
+TMPAKL839102                       A89001                                                                        1
+TMPAKL839102                       A99001                                                                        1
+PTYAKL839102   CSN
+RFFAKL839102CSN
+PTYAKL839102   CUS                    NZ9999999                                                                                                                                                                                                                                                                              YANG XU
+PTYAKL839102   OCD556-  -0516829
+RFFAKL839102OCD01556-  -0516829
+PTYAKL839102   001                    NZ H2103 HEWLEWELLIHEWLETT-PACKARD NZ LTD             LOGISTICS TEAM MAIL STOP 28                                           353 BURWOOD HIGHWAY                FOREST HILL VIC 3131               NEW ZEALAND                            3131     AUSTRALIA                          NZELSIE TAN- MAIL STOP #28           04 8026800               00121789F                000000000000
+UCTAKL839102001010029
+UCTAKL839102001010081
+UCTAKL839102001010518
+UCTAKL839102001010962
+UCTAKL839102001011261
+UCTAKL839102001011353
+UCTAKL839102001011674
+UCTAKL839102001012023
+UCTAKL839102001016231
+UCTAKL83910200101804940187
+PTYAKL839102   003                                       HEWLETT-PACKARD ASIA
+PTYAKL839102   004AKMS20295860/CDO    NZ H2103 HEWLEWELLIHEWLETT-PACKARD NZ LTD             LOGISTICS TEAM MAIL STOP 28                                           353 BURWOOD HIGHWAY                FOREST HILL VIC 3131                                                      3131     AUSTRALIA                          NZELSIE TAN- MAIL STOP #28           04 8026800               00121789F                000000000000
+RFFAKL83910200401AKMS20295860/CDO
+RFFAKL83910200402AKMS20295952/CDO
+RFFAKL83910200403AKMS20295953/CDO
+RFFAKL83910200404AKMS20295954/CDO
+RFFAKL83910200405AKMS20295960/CDO
+RFFAKL83910200406AKMS20296876/CDO
+RFFAKL83910200407JAKS20292593/CDO
+RFFAKL83910200408NZVS20294531/CDO
+RFFAKL83910200409NZVS20294550/CDO
+RFFAKL83910200410NZVS20294935/CDO
+RFFAKL83910200411NZVS20295252/CDO
+RFFAKL83910200412NZVS20295859/CDO
+RFFAKL83910200413NZVS20295916/CDO
+RFFAKL83910200414NZVS20295951/CDO
+RFFAKL83910200415NZVS20295961/VDP
+RFFAKL83910200416NZVS20295961/VDP
+RFFAKL83910200417NZVS20295963/VDP
+RFFAKL83910200418NZVS20295965/CDO
+RFFAKL83910200419NZVS20295968/VDP
+RFFAKL83910200420NZVS20295980/VDP
+RFFAKL83910200421NZVS20295986/CDO
+RFFAKL83910200422NZVS20295987/VDP
+RFFAKL83910200423NZVS20295988/VDP
+RFFAKL83910200424NZVS20295989/VDP
+RFFAKL83910200425NZVS20295990/VDP
+RFFAKL83910200426NZVS20295991/CDO
+RFFAKL83910200427NZVS20295992/CDO
+RFFAKL83910200428NZVS20295994/VDP
+RFFAKL83910200429NZVS20297812/VDP
+RFFAKL83910200430NZVS20297813/CDO
+RFFAKL83910200431NZVS20297816/CDO
+RFFAKL83910200432NZVS20297817/CDO
+UCTAKL839102004320029
+UCTAKL839102004320081
+UCTAKL839102004320518
+UCTAKL839102004320962
+UCTAKL839102004321261
+UCTAKL839102004321353
+UCTAKL839102004321674
+UCTAKL839102004322023
+UCTAKL839102004326231
+UCTAKL83910200432804940187
+PTYAKL839102   005                    NZ H2103 HEWLEWELLIHEWLETT-PACKARD NZ LTD             LOGISTICS TEAM MAIL STOP 28                                           353 BURWOOD HIGHWAY                FOREST HILL VIC 3131                                                      3131     AUSTRALIA                          NZELSIE TAN- MAIL STOP #28           04 8026800               00121789F                000000000000
+UCTAKL839102005320029
+UCTAKL839102005320081
+UCTAKL839102005320518
+UCTAKL839102005320962
+UCTAKL839102005321261
+UCTAKL839102005321353
+UCTAKL839102005321674
+UCTAKL839102005322023
+UCTAKL839102005326231
+UCTAKL83910200532804940187
+PTYAKL839102   017                                       MAERSK                                                                                                                                                                                                                                                            GB
+PTYAKL839102   038                    NZ AKLCDZAKLCDZ    DHL GLOBAL FORWARDING (NZ) LTD                                                                           18 VERISSIMO DRIVE                 WESTNEY INDUSTRIAL PARK                                                   2150     AUCKLAND                                                                09 977 4777              09 977 4774
+DTMAKL839102                       120322                                            120326074812031209521203112140
+GDSAKL83910200002NZ     40'                                                                          000001          0005009050            MSKU8087445                 M3 050160                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391020200001MSKU8087445
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200003NZ     40'                                                                          000001          0003084260            MSKU8183351                 M3 034320                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391020300001MSKU8183351
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200004NZ     40'                                                                          000001          0006340450            MSKU8420411                 M3 052800                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391020400001MSKU8420411
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200005NZ     40'                                                                          000001          0004382400            MSKU8844596                 M3 047520                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391020500001MSKU8844596
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200006NZ     40'                                                                          000001          0005310210            PONU7235785                 M3 050160                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391020600001PONU7235785
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200007NZ     40'                                                                          000001          0004920950            PONU8031702                 M3 044880                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391020700001PONU8031702
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200008NZ     40'                                                                          000001          0004920950            TCKU9120590                 M3 044880                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391020800001TCKU9120590
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200009NZ     20'                                                                          000001          0001902000            SCMU2018674                 M3 015840                    00000000                                                                                                                                                                        0000                           PK                      20' STD CNTR
+MRKAKL8391020900001SCMU2018674
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200010NZ     40'                                                                          000001          0006377780            TRLU8258175                 M3 052800                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391021000001TRLU8258175
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200011NZ     40'                                                                          000001          0005748400            TRIU9276100                 M3 050160                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391021100001TRIU9276100
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200012NZ     40'                                                                          000001          0006553400            PONU7681637                 M3 047520                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391021200001PONU7681637
+DSCAKL839102       HP ACCESSORIES
+GDSAKL83910200013NZ     40'                                                                          000001          0006310210            PONU7488886                 M3 050160                    00000000                                                                                                                                                                        0000                           PK                      40' STD CNTR
+MRKAKL8391021300001PONU7488886
+DSCAKL839102       HP ACCESSORIES
+KONAKL839102   SINGAPORE        SINGAPORE        AUCKLAND         AUCKLAND                                                                                                                                                                                        N
+TXTAKL839102   TXT000010
+TXTAKL839102   TXT00002022/03: Docs forwarded to carrier today for delivery...aklshm
+TXTAKL839102   TXT000030cdz res ok   akllxn 23/03
+TXTAKL839102   TXT00004030/3 - additinoal raised for cartage charges.. aklmfm
+MVTAKL83910200002NZD    NZ 12419 6684528801120321          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  INV0000002265431203281203 120328 0156 1204 120328 0156                                                                     N                                                     000000226543J
+MVTAKL83910200003NZD    NZ 12419 6804528801120321          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  INV0000000035001203281203 120328 0156 1204 120328 0156                                                                     N                                                     000000003500J
+MVTAKL83910200004NZD    NZ 12419 6784528801120321          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  INV0000006531001203281203 120328 0156 1204 120328 0156                                                                     N                                                     000000653100J
+MVTAKL83910200005NZD    NZ H2103 6063827441120321          000CUSTOMS CLEARANCE -IMPORT ENTRY     000000003300001000                  VNV000000003300                                                                                                           PN                                                     000000003300J
+MVTAKL83910200011NZD    NZ H2103 6683827441120321          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  VNV000000226543                                                                                                           PN                                                     000000226543J
+MVTAKL83910200012NZD    NZ H2103 6803827441120321          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  VNV000000003500                                                                                                           PN                                                     000000003500J
+MVTAKL83910200013NZD    NZ H2103 6783827441120321          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  VNV000000653100                                                                                                           PN                                                     000000653100J
+MVTAKL83910200016NZD    NZ 12679 8540000001120323          000CDZ CARTAGE                         000000018900001000                  INV0000000189001205291203 120328 0156 1206 120529 0158                                                                     N                                                     000000018900
+MVTAKL83910200017NZD    NZ 12679 8560000001120323          000FUEL ADJUSTMENT FACTOR              000000000500189000                  INV0000000009451205291203 120328 0156 1206 120529 0158                                                                     N                                                     000000000945
+MVTAKL83910200018NZD    NZ 12679 8540000001120323          000CDZ CARTAGE                         000000025400011000                  INV0000002794001205291203 120328 0156 1206 120529 0158                                                                     N                                                     000000279400
+MVTAKL83910200019NZD    NZ 12679 8560000001120323          000FUEL ADJUSTMENT FACTOR              000000000500794000                  INV0000000139701205291203 120328 0156 1206 120529 0158                                                                     N                                                     000000013970
+MVTAKL83910200020NZD    NZ H2103 8543827441120323          00020' CDO CARTAGE                     000000017500001000                  VNV000000017500                                                                                                           PN                                                     000000017500J
+MVTAKL83910200021NZD    NZ H2103 8563827441120323          00020'FUEL ADJUSTMENT FACTOR           000000001145001000                  VNV000000000011                                                                                                           PN                                                     000000000011J
+MVTAKL83910200022NZD    NZ H2103 8543827441120323          00040' CDO CARTAGE                     000000029000003000                  VNV000000087000                                                                                                           PN                                                     000000087000J
+MVTAKL83910200023NZD    NZ H2103 8563827441120323          000CDO FUEL ADJUSTMENT FACTOR          000000001145870000                  VNV000000009962                                                                                                           PN                                                     000000009962J
+MVTAKL83910200024NZD    NZ H2103 8543827441120323          00040' VDP CARTAGE                     000000055000008000                  VNV000000440000                                                                                                           PN                                                     000000440000J
+MVTAKL83910200025NZD    NZ H2103 8563827441120323          000VDP FUEL ADJUSTMENT FACTOR          000000000690400000                  VNV000000030360                                                                                                           PN                                                     000000030360J
+MVTAKL83910200026NZD    NZ H2103 6063827441120323          000CUSTOMS CLEARANCE -IMPORT ENTRY     000000003300001000                  VNN0000000033001203231203        2526                                                                                     PN                                                     000000003300J
+MVTAKL83910200027NZD    NZ H2103 6683827441120323          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  VNN0000002265431203231203        2526                                                                                     PN                                                     000000226543J
+MVTAKL83910200028NZD    NZ H2103 6803827441120323          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  VNN0000000035001203231203        2526                                                                                     PN                                                     000000003500J
+MVTAKL83910200029NZD    NZ H2103 6783827441120323          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  VNN0000006531001203231203        2526                                                                                     PN                                                     000000653100J
+MVTAKL83910200030NZD    NZ H2103 8543827441120323          00020' CDO CARTAGE                     000000017500001000                  VNN0000000175001203231203        2526                                                                                     PN                                                     000000017500J
+MVTAKL83910200031NZD    NZ H2103 8563827441120323          00020'FUEL ADJUSTMENT FACTOR           000000001145001000                  VNN0000000000111203231203        2526                                                                                     PN                                                     000000000011J
+MVTAKL83910200032NZD    NZ H2103 8543827441120323          00040' CDO CARTAGE                     000000029000003000                  VNN0000000870001203231203        2526                                                                                     PN                                                     000000087000J
+MVTAKL83910200033NZD    NZ H2103 8563827441120323          000CDO FUEL ADJUSTMENT FACTOR          000000001145870000                  VNN0000000099621203231203        2526                                                                                     PN                                                     000000009962J
+MVTAKL83910200034NZD    NZ H2103 8543827441120323          00040' VDP CARTAGE                     000000055000008000                  VNN0000004400001203231203        2526                                                                                     PN                                                     000000440000J
+MVTAKL83910200035NZD    NZ H2103 8563827441120323          000VDP FUEL ADJUSTMENT FACTOR          000000000690400000                  VNN0000000303601203231203        2526                                                                                     PN                                                     000000030360J
+MVTAKL83910200036NZD    NZ H2103 8543838891120330          00040' VDP CARTAGE                     000000010000004000                  VNV000000040000                                                                                                           PN                                                     000000040000J
+MVTAKL83910200037NZD    NZ H2103 8563838891120330          000FUEL ADJUSTMENT FACTOR              000000000690400000                  VNV000000002760                                                                                                           PN                                                     000000002760J
+MVTAKL83910200038NZD    NZ H2103 8543838891120330          00040' VDP CARTAGE                     000000010000004000                  VNN0000000400001203301204        2532                                                                                     PN                                                     000000040000J
+MVTAKL83910200039NZD    NZ H2103 8563838891120330          000FUEL ADJUSTMENT FACTOR              000000000690400000                  VNN0000000027601203301204        2532                                                                                     PN                                                     000000002760J
+MVTAKL83910200040NZD    NZ 12419 6684528801120330          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  INN0000002265431203161204        9553                                                                                     PN                                                     000000226543J
+MVTAKL83910200041NZD    NZ 12419 6804528801120330          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  INN0000000035001203161204        9553                                                                                     PN                                                     000000003500J
+MVTAKL83910200042NZD    NZ 12419 6784528801120330          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  INN0000006531001203161204        9553                                                                                     PN                                                     000000653100J
+MVTAKL83910200043NZD    NZ 12679 8540000001120423          000CDZ CARTAGE                         000000000000200000                  INV00000-2983001205291204 120426 0157 1206 120529 0158                                                                     N                                                     00000-298300
+MVTAKL83910200044NZD    NZ 12679 8560000001120423          000FUEL ADJUSTMENT FACTOR              000000000000001000                  INV000000-149151205291204 120426 0157 1206 120529 0158                                                                     N                                                     000000-14915
+MVTAKL83910200045NZD    NZ 12679 8544556321120423          000CDZ CARTAGE                         000000000000200000                  INV0000002983001204261204 120426 0157 1205 120426 0157                                                                     N                                                     000000298300J
+MVTAKL83910200046NZD    NZ 12679 8564556321120423          000FUEL ADJUSTMENT FACTOR              000000000000001000                  INV0000000238461204261204 120426 0157 1205 120426 0157                                                                     N                                                     000000023846J
+MVTAKL83910200047NZD    NZ 12679 8544556321120501          000CDZ CARTAGE                         000000000000001000                  INN0000002983001203311205        9579                                                                                     PN                                                     000000298300J
+MVTAKL83910200048NZD    NZ 12679 8564556321120501          000FUEL ADJUSTMENT FACTOR              000000000000001000                  INN0000000238461203311205        9579                                                                                     PN                                                     000000023846J
+MVTAKL83910200049NZD    NZ H2103 6063914661120607          000CUSTOMS CLEARANCE -IMPORT ENTRY     0000000-3300001000                  VNV0000000-3300                                                                                                           PN                                                     0000000-3300J
+MVTAKL83910200050NZD    NZ H2103 6683914661120607          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  VNV00000-226543                                                                                                           PN                                                     00000-226543J
+MVTAKL83910200051NZD    NZ H2103 6803914661120607          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  VNV0000000-3500                                                                                                           PN                                                     0000000-3500J
+MVTAKL83910200052NZD    NZ H2103 6783914661120607          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  VNV00000-653100                                                                                                           PN                                                     00000-653100J
+MVTAKL83910200053NZD    NZ H2103 8543914661120607          00020' CDO CARTAGE                     000000-17500001000                  VNV000000-17500                                                                                                           PN                                                     000000-17500J
+MVTAKL83910200054NZD    NZ H2103 8563914661120607          00020'FUEL ADJUSTMENT FACTOR           0000000-1145001000                  VNV000000000-11                                                                                                           PN                                                     000000000-11J
+MVTAKL83910200055NZD    NZ H2103 8543914661120607          00040' CDO CARTAGE                     000000-29000003000                  VNV000000-87000                                                                                                           PN                                                     000000-87000J
+MVTAKL83910200056NZD    NZ H2103 8563914661120607          000CDO FUEL ADJUSTMENT FACTOR          0000000-1145870000                  VNV0000000-9962                                                                                                           PN                                                     0000000-9962J
+MVTAKL83910200057NZD    NZ H2103 8543914661120607          00040' VDP CARTAGE                     000000-55000008000                  VNV00000-440000                                                                                                           PN                                                     00000-440000J
+MVTAKL83910200058NZD    NZ H2103 8563914661120607          000VDP FUEL ADJUSTMENT FACTOR          00000000-690400000                  VNV000000-30360                                                                                                           PN                                                     000000-30360J
+MVTAKL83910200059NZD    NZ H2103 8543914661120607          00040' VDP CARTAGE                     000000-10000004000                  VNV000000-40000                                                                                                           PN                                                     000000-40000J
+MVTAKL83910200060NZD    NZ H2103 8563914661120607          000FUEL ADJUSTMENT FACTOR              00000000-690400000                  VNV0000000-2760                                                                                                           PN                                                     0000000-2760J
+MVTAKL83910200061NZD    NZ H2103 6063914681120607          000CUSTOMS CLEARANCE -IMPORT ENTRY     000000003300001000                  VNV000000003300                                                                                                           PN                                                     000000003300J
+MVTAKL83910200062NZD    NZ H2103 6683914681120607          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  VNV000000226543                                                                                                           PN                                                     000000226543J
+MVTAKL83910200063NZD    NZ H2103 6803914681120607          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  VNV000000003500                                                                                                           PN                                                     000000003500J
+MVTAKL83910200064NZD    NZ H2103 6783914681120607          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  VNV000000653100                                                                                                           PN                                                     000000653100J
+MVTAKL83910200065NZD    NZ H2103 8543914681120607          00020' CDO CARTAGE                     000000017500001000                  VNV000000017500                                                                                                           PN                                                     000000017500J
+MVTAKL83910200066NZD    NZ H2103 8563914681120607          00020'FUEL ADJUSTMENT FACTOR           000000000915175000                  VNV000000001601                                                                                                           PN                                                     000000001601J
+MVTAKL83910200067NZD    NZ H2103 8543914681120607          00040' CDO CARTAGE                     000000029000003000                  VNV000000087000                                                                                                           PN                                                     000000087000J
+MVTAKL83910200068NZD    NZ H2103 8563914681120607          000CDO FUEL ADJUSTMENT FACTOR          000000000915870000                  VNV000000007961                                                                                                           PN                                                     000000007961J
+MVTAKL83910200069NZD    NZ H2103 8543914681120607          00040' VDP CARTAGE                     000000055000008000                  VNV000000440000                                                                                                           PN                                                     000000440000J
+MVTAKL83910200070NZD    NZ H2103 8563914681120607          000VDP FUEL ADJUSTMENT FACTOR          000000000690400000                  VNV000000030360                                                                                                           PN                                                     000000030360J
+MVTAKL83910200071NZD    NZ H2103 8543914681120607          00040' VDP CARTAGE                     000000010000004000                  VNV000000040000                                                                                                           PN                                                     000000040000J
+MVTAKL83910200072NZD    NZ H2103 8563914681120607          000VDP FUEL ADJUSTMENT FACTOR          000000000690400000                  VNV000000002760                                                                                                           PN                                                     000000002760J
+MVTAKL83910200073NZD    NZ H2103 6063914661120607          000CUSTOMS CLEARANCE -IMPORT ENTRY     0000000-3300001000                  VNN0000000-33001206071206        2580                                                                                     PN                                                     0000000-3300J
+MVTAKL83910200074NZD    NZ H2103 6683914661120607          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  VNN00000-2265431206071206        2580                                                                                     PN                                                     00000-226543J
+MVTAKL83910200075NZD    NZ H2103 6803914661120607          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  VNN0000000-35001206071206        2580                                                                                     PN                                                     0000000-3500J
+MVTAKL83910200076NZD    NZ H2103 6783914661120607          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  VNN00000-6531001206071206        2580                                                                                     PN                                                     00000-653100J
+MVTAKL83910200077NZD    NZ H2103 8543914661120607          00020' CDO CARTAGE                     000000-17500001000                  VNN000000-175001206071206        2580                                                                                     PN                                                     000000-17500J
+MVTAKL83910200078NZD    NZ H2103 8563914661120607          00020'FUEL ADJUSTMENT FACTOR           0000000-1145001000                  VNN000000000-111206071206        2580                                                                                     PN                                                     000000000-11J
+MVTAKL83910200079NZD    NZ H2103 8543914661120607          00040' CDO CARTAGE                     000000-29000003000                  VNN000000-870001206071206        2580                                                                                     PN                                                     000000-87000J
+MVTAKL83910200080NZD    NZ H2103 8563914661120607          000CDO FUEL ADJUSTMENT FACTOR          0000000-1145870000                  VNN0000000-99621206071206        2580                                                                                     PN                                                     0000000-9962J
+MVTAKL83910200081NZD    NZ H2103 8543914661120607          00040' VDP CARTAGE                     000000-55000008000                  VNN00000-4400001206071206        2580                                                                                     PN                                                     00000-440000J
+MVTAKL83910200082NZD    NZ H2103 8563914661120607          000VDP FUEL ADJUSTMENT FACTOR          00000000-690400000                  VNN000000-303601206071206        2580                                                                                     PN                                                     000000-30360J
+MVTAKL83910200083NZD    NZ H2103 8543914661120607          00040' VDP CARTAGE                     000000-10000004000                  VNN000000-400001206071206        2580                                                                                     PN                                                     000000-40000J
+MVTAKL83910200084NZD    NZ H2103 8563914661120607          000FUEL ADJUSTMENT FACTOR              00000000-690400000                  VNN0000000-27601206071206        2580                                                                                     PN                                                     0000000-2760J
+MVTAKL83910200085NZD    NZ H2103 6063914681120607          000CUSTOMS CLEARANCE -IMPORT ENTRY     000000003300001000                  VNN0000000033001206071206        2580                                                                                     PN                                                     000000003300J
+MVTAKL83910200086NZD    NZ H2103 6683914681120607          000THIRD PARTY OCEAN FREIGHT           000000000000001000                  VNN0000002265431206071206        2580                                                                                     PN                                                     000000226543J
+MVTAKL83910200087NZD    NZ H2103 6803914681120607          000THIRD PARTY SHIPS DELIVERY SERVICE  000000000000001000                  VNN0000000035001206071206        2580                                                                                     PN                                                     000000003500J
+MVTAKL83910200088NZD    NZ H2103 6783914681120607          000THIRD PARTY PORT SERVICE CHARGE     000000000000001000                  VNN0000006531001206071206        2580                                                                                     PN                                                     000000653100J
+MVTAKL83910200089NZD    NZ H2103 8543914681120607          00020' CDO CARTAGE                     000000017500001000                  VNN0000000175001206071206        2580                                                                                     PN                                                     000000017500J
+MVTAKL83910200090NZD    NZ H2103 8563914681120607          00020'FUEL ADJUSTMENT FACTOR           000000000915175000                  VNN0000000016011206071206        2580                                                                                     PN                                                     000000001601J
+MVTAKL83910200091NZD    NZ H2103 8543914681120607          00040' CDO CARTAGE                     000000029000003000                  VNN0000000870001206071206        2580                                                                                     PN                                                     000000087000J
+MVTAKL83910200092NZD    NZ H2103 8563914681120607          000CDO FUEL ADJUSTMENT FACTOR          000000000915870000                  VNN0000000079611206071206        2580                                                                                     PN                                                     000000007961J
+MVTAKL83910200093NZD    NZ H2103 8543914681120607          00040' VDP CARTAGE                     000000055000008000                  VNN0000004400001206071206        2580                                                                                     PN                                                     000000440000J
+MVTAKL83910200094NZD    NZ H2103 8563914681120607          000VDP FUEL ADJUSTMENT FACTOR          000000000690400000                  VNN0000000303601206071206        2580                                                                                     PN                                                     000000030360J
+MVTAKL83910200095NZD    NZ H2103 8543914681120607          00040' VDP CARTAGE                     000000010000004000                  VNN0000000400001206071206        2580                                                                                     PN                                                     000000040000J
+MVTAKL83910200096NZD    NZ H2103 8563914681120607          000VDP FUEL ADJUSTMENT FACTOR          000000000690400000                  VNN0000000027601206071206        2580                                                                                     PN                                                     000000002760J
+SAFAKL839102                         CNTRZDN
+SAFAKL839102                         ESTLIN                                   00000000000000000055000000000
+ENDAKL839102
