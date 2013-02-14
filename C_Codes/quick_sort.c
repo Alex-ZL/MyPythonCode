@@ -54,7 +54,7 @@ void QSort(SqList L, int low, int high){
 }
 
 void QuickSort(SqList L){
-	QSort(L, 1, L.length);
+	QSort(L, 0, L.length-1);
 }
 
 int main(int argc, char *argv[]){
