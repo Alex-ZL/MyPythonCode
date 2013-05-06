@@ -1,50 +1,67 @@
-###A sample of using fabric to do some simple operations on remote boxes.
-
+###A sample of using fabric to do some simple operations on remote boxes.  
 from fabric.api import run, env, roles, local, put, cd
 from datetime import datetime
 
 ### Dict for hostname and ip
 CONST_DICT = {
-        '6CU313Y9Z4': ['SVR2689HP380', '10.3.220.110'],
-        '6CU313Y9Y7': ['SVR2690HP380', '10.3.220.111'], 
-        '6CU313Y9YC': ['SVR2691HP380', '10.3.220.112'],
-        '6CU313Y9YT': ['SVR2692HP380', '10.3.220.113'],
-        '6CU313Y9Y3': ['SVR2693HP380', '10.3.220.114'],
-        '6CU313Y9YY': ['SVR2694HP380', '10.3.220.115'],
-        '6CU313Y9XV': ['SVR2695HP380', '10.3.220.116'],
-        '6CU313Y9Z2': ['SVR2696HP380', '10.3.220.117'],
-        '6CU313Y9YM': ['SVR2697HP380', '10.3.220.118'],
-        '6CU313Y9ZB': ['SVR2698HP380', '10.3.220.119'],
-        '6CU313Y9YH': ['SVR2699HP380', '10.3.220.120'],
-        '6CU313Y9XZ': ['SVR2700HP380', '10.3.220.121'],
-        '6CU313Y9YF': ['SVR2701HP380', '10.3.220.122'],
-        '6CU313Y9Y5': ['SVR2702HP380', '10.3.220.123'],
-        '6CU313Y9YK': ['SVR2703HP380', '10.3.220.124'],
-        '6CU313Y9XX': ['SVR2704HP380', '10.3.220.125'],
-        '6CU313Y9YR': ['SVR2705HP380', '10.3.220.126'],
-        '6CU313Y9YW': ['SVR2706HP380', '10.3.220.127'],
-        '6CU313Y9Y9': ['SVR2707HP380', '10.3.220.128'],
-        '6CU313Y9YP': ['SVR2708HP380', '10.3.220.129'],
+        '6CU313Y9Z4': ['SVR2689HP380', '10.3.200.10'],
+        '6CU313Y9Y7': ['SVR2690HP380', '10.3.200.11'], 
+        '6CU313Y9YC': ['SVR2691HP380', '10.3.200.12'],
+        '6CU313Y9YT': ['SVR2692HP380', '10.3.200.13'],
+        '6CU313Y9Y3': ['SVR2693HP380', '10.3.200.14'],
+        '6CU313Y9YY': ['SVR2694HP380', '10.3.200.15'],
+        '6CU313Y9XV': ['SVR2695HP380', '10.3.200.16'],
+        '6CU313Y9Z2': ['SVR2696HP380', '10.3.200.17'],
+        '6CU313Y9YM': ['SVR2697HP380', '10.3.200.18'],
+        '6CU313Y9ZB': ['SVR2698HP380', '10.3.200.19'],
+        '6CU313Y9YH': ['SVR2699HP380', '10.3.200.20'],
+        '6CU313Y9XZ': ['SVR2700HP380', '10.3.200.21'],
+        '6CU313Y9YF': ['SVR2701HP380', '10.3.200.22'],
+        '6CU313Y9Y5': ['SVR2702HP380', '10.3.200.23'],
+        '6CU313Y9YK': ['SVR2703HP380', '10.3.200.24'],
+        '6CU313Y9XX': ['SVR2704HP380', '10.3.200.25'],
+        '6CU313Y9YR': ['SVR2705HP380', '10.3.200.26'],
+        '6CU313Y9YW': ['SVR2706HP380', '10.3.200.27'],
+        '6CU313Y9Y9': ['SVR2707HP380', '10.3.200.28'],
+        '6CU313Y9YP': ['SVR2708HP380', '10.3.200.29'],
         }
 
 #env.hosts = ['root@192.168.2.112', 'root@192.168.2.113']
 env.roledefs = {
-		'nt-dev-farm': ['root@10.3.220.120',
-                        'root@10.3.220.121',
-                        'root@10.3.220.122',
-                        'root@10.3.220.123',
-                        'root@10.3.220.124',
-                        'root@10.3.220.125',
-                        'root@10.3.220.126',
-                        'root@10.3.220.127',
-                        'root@10.3.220.128',
-                        'root@10.3.220.129',
+		'nt-dev-farm': ['root@10.3.200.10',
+                       # 'root@10.3.200.11',
+                       # 'root@10.3.200.12',
+                        'root@10.3.200.13',
+                        'root@10.3.200.14',
+                        'root@10.3.200.15',
+                        'root@10.3.200.16',
+                        'root@10.3.200.17',
+                        'root@10.3.200.18',
+                        'root@10.3.200.19',
+                        'root@10.3.200.20',
+                        'root@10.3.200.21',
+                        'root@10.3.200.22',
+                        'root@10.3.200.23',
+                        'root@10.3.200.24',
+                        'root@10.3.200.25',
+                        'root@10.3.200.26',
+                        'root@10.3.200.27',
+                        'root@10.3.200.28',
+                        'root@10.3.200.29',
                         ],
 		}
 
 post_install_item = ["hostname", "serialnum", "ip addr"]
 
-@roles('nt-dev-farm')
+#@roles('nt-dev-farm')
+def grub_disable_graph():
+    grub_conf="/etc/default/grub"
+    run('sed -i "11s/^/#/" %s' % grub_conf)
+    run('sed -i "20s/#//g" %s' % grub_conf)
+    run('update-grub')
+    run('reboot now')
+
+#@roles('nt-dev-farm')
 def sync_date():
 	###set timezone and sync time for ubuntu
 	run('echo "Asia/Shanghai" | sudo tee /etc/timezone')
@@ -94,10 +111,10 @@ def set_ip():
     run('echo "gateway 10.3.220.1" >> %s' % network)
     run('reboot now')
 
-@roles('nt-dev-farm')
+#@roles('nt-dev-farm')
 def post_install():
-    syncdate()
-    #set_dns_server()   this task doesn't work here, a strange bug
+    sync_date()
+    set_dns_server()   #this task doesn't work here, a strange bug
     set_hostname()
     set_ip()
     with open('post-install.list', 'a') as f:
@@ -105,6 +122,4 @@ def post_install():
 
 def test():
     time_stamp = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
-    local('touch /home/zhangliang/Codes/touch-flag-%s' %time_stamp) 
-    sn = local('sudo dmidecode -s system-serial-number')
-    print sn
+    local('sed -i "2chello %s \n/a" /tmp/fabtest.info' % time_stamp)
